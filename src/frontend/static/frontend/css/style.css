@@ -1,0 +1,25 @@
+:root {
+   --primary:#06c;
+   --light-font-color: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+.link-decoration-none{
+    text-decoration: none;
+}
+/* Header */
+.navbar{
+    background-color: var(--primary);
+}
+
+.authButton{
+    margin-left: auto!important;
+}
+
+.authButton *{
+    color: var(--light-font-color);
+    text-decoration: none;
+}
